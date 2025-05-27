@@ -1,0 +1,48 @@
+# .NET build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Rider / VS Code / Visual Studio
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build logs
+*.log
+
+# Package output
+*.nupkg
+*.snupkg
+
+# SQLite
+*.db
+**/movies.db
+
+# Docker
+*.pid
+*.tar
+.env
+docker-compose.override.yml
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Other optional exclusions
+*.publishsettings
