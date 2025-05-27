@@ -1,0 +1,13 @@
+﻿version: '3.8'
+
+services:
+  movieapi:
+    build:
+      context: .
+      dockerfile: MovieAPI/Dockerfile
+    ports:
+      - "8080:80"  # maps http://localhost:8080 
+    volumes:
+      - ./MovieAPI/movies.db:/app/movies.db  
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
