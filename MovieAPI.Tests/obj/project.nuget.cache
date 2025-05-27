@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BB0EG0XVXtU=",
+  "dgSpecHash": "CeNyOZtiJZ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
+  "projectFilePath": "C:\\Repos\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\musta\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",

@@ -50,10 +50,10 @@ namespace MovieAPI.Tests.Repositories
         {
             var repo = CreateRepository();
 
-            var result = await repo.SearchAsync(new MovieSearchRequest { Page = 2, PageSize = 2 });
+            var result = await repo.SearchAsync(new MovieSearchRequest { Page = 2, PageSize = 2});
 
             Assert.Equal(2, result.Count);
-            Assert.Equal("Spider-Man", result[0].Title);
+            Assert.Equal("The Batman", result[0].Title);
         }
 
         [Fact]

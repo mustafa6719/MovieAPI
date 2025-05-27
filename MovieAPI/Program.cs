@@ -8,7 +8,7 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=movies.db"));
+    options.UseSqlite("Data Source=Data/movies.db"));
 
 // Dependency Injection
 builder.Services.AddScoped<IDataSeeder, CsvDataSeeder>();

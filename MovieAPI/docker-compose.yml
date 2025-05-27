@@ -8,6 +8,7 @@ services:
     ports:
       - "8080:80"  # maps http://localhost:8080 
     volumes:
-      - ./MovieAPI/movies.db:/app/movies.db  
+      - ./MovieAPI/Data/movies.db:/app/movies.db  
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://0.0.0.0:80

@@ -3100,11 +3100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
+      "projectUniqueName": "C:\\Repos\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
       "projectName": "MovieAPI.Tests",
-      "projectPath": "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
+      "projectPath": "C:\\Repos\\MovieAPI\\MovieAPI.Tests\\MovieAPI.Tests.csproj",
       "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI.Tests\\obj\\",
+      "outputPath": "C:\\Repos\\MovieAPI\\MovieAPI.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\musta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3122,8 +3122,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI\\MovieAPI.csproj": {
-              "projectPath": "C:\\Users\\musta\\OneDrive\\Documents\\GitHub\\MovieAPI\\MovieAPI\\MovieAPI.csproj"
+            "C:\\Repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj": {
+              "projectPath": "C:\\Repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj"
             }
           }
         }
@@ -3188,7 +3188,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

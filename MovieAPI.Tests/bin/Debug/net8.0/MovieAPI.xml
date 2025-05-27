@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MovieAPI.Controllers.MoviesController.Search(MovieAPI.Models.MovieSearchRequest)">
+            <summary>
+            Searches movies based on title, genre, year, pagination and sorting.
+            </summary>
+            <param name="movieSearchRequest">Search filters including title, genre, year, page, and sorting.</param>
+            <returns>A paginated list of matching movies.</returns>
+        </member>
+        <member name="T:MovieAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MovieAPI.Models.MovieSearchRequest">
+            <summary>
+            Search criteria for filtering and sorting movies.
+            </summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.Title">
+            <summary>The movie title or part of it.</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.Genre">
+            <summary>Movie genre (e.g., Action, Drama).</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.Year">
+            <summary>Filter by release year (e.g., 2022).</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.Page">
+            <summary>Page number of results (default 1).</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.PageSize">
+            <summary>Number of results per page (default 10).</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.SortBy">
+            <summary>Sort field.</summary>
+        </member>
+        <member name="P:MovieAPI.Models.MovieSearchRequest.SortDirection">
+            <summary>Sort direction.</summary>
+        </member>
+    </members>
+</doc>
